@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+ /* Home.css */
+.home-container {
+  height: 100vh; /* Full viewport height */
+  background-image: url('./assets/background.webp');
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color to stand out against the background */
+  font-size: 2rem;
+
+}
+
+}
